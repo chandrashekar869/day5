@@ -1,0 +1,6 @@
+<div *ngFor="let v of (obj|testPipe)">
+  {{v.name}}
+</div>
+<input [(ngModel)]="datain" type="string">
+<input [(ngModel)]="type" type="string">
+<button (click)="submit()">Submit</button>
